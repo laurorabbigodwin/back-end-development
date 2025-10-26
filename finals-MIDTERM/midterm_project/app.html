@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">English Dictionary App</div>
+  </header>
+
+  <main class="app-container">
+    <h1>WordSense Dictionary</h1>
+    <p>Type any English word below to get its meaning, phonetics, and more.</p>
+
+    <!-- Word of the Day Section -->
+    <section class="wotd-section">
+      <h2>Word of the Day 🎯</h2>
+      <div class="wotd-box">
+        <button id="wotdBtn" class="wotd-btn">Get Word of the Day</button>
+        <div id="wotdDisplay" class="wotd-result">
+          Click the button to reveal today’s vocabulary magic!
+        </div>
+      </div>
+    </section>
+
+    <!-- Search Feature -->
+    <section class="search-section">
+      <h2>Search a Word 🔍</h2>
+      <div class="search-box">
+        <input type="text" id="wordInput" placeholder="Enter a word..." />
+        <div class="button-group">
+          <button id="searchBtn">Search</button>
+          <button id="clearInputBtn" class="clear-btn">Clear</button>
+        </div>
+      </div>
+
+      <!-- Word Result -->
+      <div class="result-card" id="resultCard">
+        <!-- Results appear here -->
+      </div>
+    </section>
+
+    <div class="project-link">
+      <a href="index.html" class="btn">← Return to main</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Dictionary App | BSIT Midterm Project | Made by Group 4
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

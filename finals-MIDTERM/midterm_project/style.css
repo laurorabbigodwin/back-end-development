@@ -1,0 +1,301 @@
+/* =========================================================
+   GLOBAL STYLES
+========================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding-bottom: 80px;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 4px solid #004d40;
+}
+
+/* =========================================================
+   MAIN CONTENT (INDEX PAGE)
+========================================================= */
+main {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  border-left: 6px solid #009688;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #00b8b8;
+}
+
+/* ===== Reason Section ===== */
+.reason-container {
+  background-color: #f9f9f9;
+  border-left: 6px solid #009688;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin: 30px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 31, 63, 0.1);
+  text-align: left;
+}
+
+.reason-container h2 {
+  color: #00796b;
+  margin-bottom: 15px;
+}
+
+/* ===== Team Section ===== */
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+section h2 {
+  color: #00796b;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.resume-card {
+  background-color: #009688;
+  color: white;
+  width: 250px;
+  height: 370px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.resume-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
+/* =========================================================
+   PROJECT LINK BUTTON
+========================================================= */
+.project-link {
+  margin: 30px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #004d40;
+}
+
+/* =========================================================
+   APP PAGE (app.html)
+========================================================= */
+.app-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+/* --- Word of the Day --- */
+.wotd-section {
+  margin: 25px auto;
+  max-width: 600px;
+  background-color: #f7f9f9;
+  border-left: 6px solid #00796b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 31, 63, 0.08);
+}
+
+.wotd-section h2 {
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.wotd-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.wotd-btn {
+  background-color: #009688;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.wotd-btn:hover {
+  background-color: #00695c;
+}
+
+.wotd-result {
+  background: #ffffff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e3;
+  color: #333;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.wotd-word {
+  font-weight: bold;
+  color: #00796b;
+}
+
+/* --- Search Section --- */
+.search-section {
+  margin-top: 40px;
+}
+
+.search-box {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #00796b;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.search-box button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #004d40;
+}
+
+.result-card {
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 12px;
+  border-left: 6px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 31, 63, 0.1);
+  text-align: left;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00796b;
+  border-top: 4px solid #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+
+  .team-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wotd-section, .result-card {
+    width: 90%;
+  }
+}
